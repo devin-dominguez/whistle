@@ -1,0 +1,27 @@
+$icon-width: 24px;
+
+.buy-now-button {
+  background-color: $orange;
+  display: flex;
+  align-items: center;
+
+  border-radius: 2px;
+  width: 140px;
+  padding: 20px;
+
+  color: $white;
+
+  font-family: "proxima_nova_semibold";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+
+  img {
+    width: $icon-width;
+    height: $icon-width * 0.78125;
+    padding-right: 18px;
+  }
+
+}
+

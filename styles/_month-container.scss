@@ -1,0 +1,35 @@
+.month-container {
+  .title {
+    font-family: "proxima_nova_semibold";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $darkest-gray;
+    margin: 20px 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    padding: 32px;
+    width: 500px;
+
+    background: $lightest-gray;
+
+
+    .month-title {
+      font-family: "proxima_nova_semibold";
+      font-weight: bold;
+      font-size: 28px;
+      color: $dark-gray;
+      margin-bottom: 24px;
+    }
+
+    .price {
+      font-size: 28px;
+      color: $dark-gray;
+    }
+  }
+}
