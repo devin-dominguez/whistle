@@ -15,7 +15,7 @@ body {
   margin: 32px;
 }
 
-@media (max-width: 720px) {
+@media (max-device-width: 720px) {
   .primary-container {
     flex-direction: column;
     align-items: center;
